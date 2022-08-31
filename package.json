@@ -1,0 +1,32 @@
+{
+  "name": "ceramic-rest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Encapsulate ceramic sdk as rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tt": "node tutorial.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ceramicnetwork/http-client": "^2.3.0",
+    "@glazed/datamodel": "^0.3.1",
+    "@glazed/devtools": "^0.2.0",
+    "@glazed/did-datastore": "^0.3.2",
+    "@self.id/web": "^0.4.2",
+    "did-session": "^0.1.1",
+    "dids": "^3.2.0",
+    "key-did-provider-ed25519": "^2.0.1",
+    "key-did-resolver": "^2.0.5",
+    "metamask": "^0.0.1-security",
+    "restify": "^8.6.1",
+    "uint8arrays": "^3.0.0",
+    "web3": "^1.7.4",
+    "web3-utils": "^1.7.4"
+  },
+  "devDependencies": {
+    "@datamodels/identity-profile-basic": "^0.2.0"
+  }
+}
